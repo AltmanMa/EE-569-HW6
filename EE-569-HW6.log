@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  2 MAY 2024 02:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  2 MAY 2024 02:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -301,24 +301,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--55
 
  []
 
-[2] [3] (./EE-569-HW6.aux) ) 
+[2]
+<FMINST++.png, id=15, 401.8212pt x 312.9291pt>
+File: FMINST++.png Graphic file (type png)
+<use FMINST++.png>
+Package pdftex.def Info: FMINST++.png  used on input line 61.
+(pdftex.def)             Requested size: 281.85587pt x 219.50247pt.
+<confusion.png, id=16, 567.3195pt x 449.5194pt>
+File: confusion.png Graphic file (type png)
+<use confusion.png>
+Package pdftex.def Info: confusion.png  used on input line 81.
+(pdftex.def)             Requested size: 281.85587pt x 223.33244pt.
+ [3 <./FMINST++.png>] [4 <./Confusion.png>] (./EE-569-HW6.aux) ) 
 Here is how much of TeX's memory you used:
- 4610 strings out of 476065
- 77442 string characters out of 5792026
+ 4626 strings out of 476065
+ 77695 string characters out of 5792026
  1859299 words of memory out of 5000000
- 25004 multiletter control sequences out of 15000+600000
+ 25018 multiletter control sequences out of 15000+600000
  517552 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,11n,77p,620b,302s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{d:/Latex/texlive/2022/texmf-dist/fonts/enc/dvips/c
-m-super/cm-super-ts1.enc}<d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb><d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/cm-super
-/sfrm1200.pfb>
-Output written on EE-569-HW6.pdf (3 pages, 75367 bytes).
+ 67i,12n,77p,620b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{d:/Latex/texli
+ve/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/Latex/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Latex/texlive/202
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Latex/texlive/2022/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on EE-569-HW6.pdf (4 pages, 131872 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

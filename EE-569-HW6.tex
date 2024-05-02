@@ -21,7 +21,7 @@
 		
 		\vspace{0.2cm}
 		\normalsize
-		Issued: 03/28/2024 \hfill Due: 05/01/2024
+		Issued: 04/15/2024 \hfill Due: 05/01/2024
 	\end{center}
 \section*{Problem 1: Origin of Green Learning (GL)}
 \subsection*{(a) Feedforward-designed Convolutional Neural Networks (FF-CNNs)}
@@ -54,17 +54,33 @@
 	 Comparing to saab, cwSaab applies the Saab transform channel-wise, which means transform is applied separately to each channel of the input data or feature maps. It provides a more granular approach by processing each channel independently, which can lead to more tailored and potentially more effective feature extraction. It adds a THE 1 and THE2 to decide whether to keep the channel as leaf nodes or discarding them. 
 	\section*{Problem 2: PixelHop \& PixelHop++ for Image Classification}
 	 \subsection*{(a) Building PixelHop++ Model}
+	 Model Size: (60000, 1, 1, 129) k1:  24;	 k2:  109;
+	 k3:  129 
+	 \begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=0.6\textwidth]{FMINST++.png}
+	 	\caption{Saab Process}
+	 	\label{p2a}
+	 \end{figure}
 	 \subsection*{(b) Comparison between PixelHop and PixelHop++}
 	 The table of details of trainning of PixelHop and PixelHop++ on MINST and Fashion MINST is listed in the table below in \ref{p1a}.
 	 \begin{table}
+	 	\centering
 	 	\begin{tabular}{|c|c|c|}
-	 		\hline  KDE for both Models&DSM&EBM\\
-	 		\hline Checker&-3.9906778289257354&-8.537413285032038\\
-	 		\hline Gaussian&-1.6150337910237458&-12.094435571973383\\
-	 		\hline Spiral&-74.80091074585938&-19.91811519787057\\
-	 		\hline PinWheel&-1.0175161906712928&-12.477515766573315\\
+	 		\hline  Details of Models&PixelHop&PixelHop++\\
+	 		\hline MINST Final Accuracy&96.7&96.2\\
+	 		\hline Training time&65min&41min\\
+	 		\hline F MINST Final Accurac&84.2&86.8\\
+	 		\hline Training time&63min&43min\\
 	 		\hline
 	 	\end{tabular}
 	 \end{table}
 	 \subsection*{(c) Error analysis}
+	 	\begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=0.6\textwidth]{confusion.png}
+	 	\caption{Saab Process}
+	 	\label{confusion}
+	 \end{figure}
+ We can easily find that 6 is often mistaken for 0, 2, and 4. This maybe because 6 includes circles that might be mistaken. 
 \end{document}
