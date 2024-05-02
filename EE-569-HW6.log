@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  1 MAY 2024 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  2 MAY 2024 02:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -279,29 +279,46 @@ Overfull \hbox (16.89777pt too wide) in paragraph at lines 27--27
 s (FF-CNNs) 
  []
 
-<saab.jpg, id=1, 436.63126pt x 669.50125pt>
-File: saab.jpg Graphic file (type jpg)
-<use saab.jpg>
-Package pdftex.def Info: saab.jpg  used on input line 30.
-(pdftex.def)             Requested size: 281.85587pt x 432.17744pt.
+<saab.png, id=1, 442.65375pt x 773.89125pt>
+File: saab.png Graphic file (type png)
+<use saab.png>
+Package pdftex.def Info: saab.png  used on input line 30.
+(pdftex.def)             Requested size: 281.85587pt x 492.79709pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
+
+ []
+
 [1{d:/Latex/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./saab.JPG>] (./EE-569-HW6.aux) ) 
+ <./saab.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 47--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--55
+
+ []
+
+[2] [3] (./EE-569-HW6.aux) ) 
 Here is how much of TeX's memory you used:
- 4584 strings out of 476065
- 77152 string characters out of 5792026
- 1852299 words of memory out of 5000000
- 24988 multiletter control sequences out of 15000+600000
- 513796 words of font info for 37 fonts, out of 8000000 for 9000
+ 4610 strings out of 476065
+ 77442 string characters out of 5792026
+ 1859299 words of memory out of 5000000
+ 25004 multiletter control sequences out of 15000+600000
+ 517552 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,11n,77p,349b,302s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/Latex/texlive/2022/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><d:/Latex/texlive/2022/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb>
-Output written on EE-569-HW6.pdf (1 page, 82298 bytes).
+ 67i,11n,77p,620b,302s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{d:/Latex/texlive/2022/texmf-dist/fonts/enc/dvips/c
+m-super/cm-super-ts1.enc}<d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/cm-super
+/sfrm1200.pfb>
+Output written on EE-569-HW6.pdf (3 pages, 75367 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 10 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
